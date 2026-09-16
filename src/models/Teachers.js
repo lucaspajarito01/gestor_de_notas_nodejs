@@ -1,5 +1,6 @@
 export class Teacher {
-  #id; #firstName; 
+  #id; 
+  #firstName; 
   #lastName; 
   #identificationTypeId; 
   #identificationNumber; 
