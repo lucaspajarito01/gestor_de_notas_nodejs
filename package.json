@@ -1,0 +1,20 @@
+{
+  "name": "gestor_de_notas_nodejs",
+  "version": "1.0.0",
+  "description": "Repositorio de gestion de notas con node js",
+  "homepage": "https://github.com/lucaspajarito2023-debug/gestor_de_notas_nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/lucaspajarito2023-debug/gestor_de_notas_nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspajarito2023-debug/gestor_de_notas_nodejs.git"
+  },
+  "license": "ISC",
+  "author": "lucaspajarito2023-degub",
+  "type": "modules, sources, files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
