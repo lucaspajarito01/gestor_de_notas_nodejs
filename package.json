@@ -12,9 +12,15 @@
   },
   "license": "ISC",
   "author": "lucaspajarito2023-degub",
-  "type": "modules, sources, files.",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "mysql2": "^3.24.4",
+    "readline": "^1.3.0"
   }
 }

@@ -1,21 +1,7 @@
-export class Teacher {
-  #id; 
-  #firstName; 
-  #lastName; 
-  #identificationTypeId; 
-  #identificationNumber; 
-  #email;
+import { Person } from './Person.js';
 
-  constructor({ id, firstName, lastName, identificationTypeId, identificationNumber, email }) {
-    this.#id = id;
-    this.#firstName = firstName;
-    this.#lastName = lastName;
-    this.#identificationTypeId = identificationTypeId;
-    this.#identificationNumber = identificationNumber;
-    this.#email = email;
+export class Teacher extends Person {
+  constructor(id, firstName, lastName, identificationTypeId, identificationNumber, email) {
+    super(id, firstName, lastName, identificationTypeId, identificationNumber, email);
   }
-
-  get id() { return this.#id; }
-  get fullName() { return `${this.#firstName} ${this.#lastName}`; }
-  get email() { return this.#email; }
 }
